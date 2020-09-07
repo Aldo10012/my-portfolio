@@ -1,0 +1,40 @@
+nav > a {
+    padding: 10px;
+    text-align: center;
+    font-size: 2em;
+    color: #55470e;
+  }
+
+nav {
+    border: 5px solid rgba(75, 75, 75, 0.774);
+    background-color: rgba(161, 161, 161, 0.473)
+}
+
+nav.navbar{
+    display: flex;
+    justify-content: space-around;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 2em;
+}
+
+#About_me{
+    background-color: aquamarine;
+}
+
+
+#About_me_main{
+    display: flex;
+}
+
+section#About_me article{
+    font-size: 1.5em;
+    line-height: 1.5em
+}
+
+div#icons{
+    display: flex;
+    justify-content: space-around;
+}

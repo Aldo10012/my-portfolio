@@ -2,15 +2,15 @@
 <html>
     <head>
         <title>My Portfolio</title>
+        <link rel="stylesheet" href="index.css">
     </head>
     
     
     <body>
         <!-- nav bar -->
         <header>
-            <nav>
+            <nav class="navbar">
                 <a href="#About_me">About Me</a> 
-                <a href="#Hobbies">Hobbies</a> 
                 <a href="#Places_Traveled">Places Traveled</a> 
                 <a href="#Education">Education</a> 
                 <a href="#Contact">Contact</a> 
@@ -21,58 +21,53 @@
         <main>
             <section id="About_me">     <!-- About Me-->
                 <h1>About Me</h1>
-                
-                <figure>
-                    <img src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/37720578_237174067101634_1676127338204495872_o.jpg?_nc_cat=110&_nc_sid=19026a&_nc_ohc=B8psEIfWZGYAX8YRX7-&_nc_ht=scontent-sjc3-1.xx&oh=56a04beb1827ca175be320fa628a0b57&oe=5F7C9BE4" alt="Picture of me" width="500" height="600">
-                    <figcaption>Fig 1. Picture of me crabbing</figcaption>
-                </figure>
-                
-                <article>
-                    <p>My name is Alberto Domingeuz. </p>
-                    <p>I am a 19-year-old Chicano and the first person in my family to attend college. 
-                        I am currently enrolled in Make School working towards getting a BA in Computer Science. </p>
-                </article>
+                <main id="About_me_main">
+                    <figure>
+                        <img src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/37720578_237174067101634_1676127338204495872_o.jpg?_nc_cat=110&_nc_sid=19026a&_nc_ohc=B8psEIfWZGYAX8YRX7-&_nc_ht=scontent-sjc3-1.xx&oh=56a04beb1827ca175be320fa628a0b57&oe=5F7C9BE4" alt="Picture of me" width="300">
+                    </figure>
+                    
+                    <article>
+                        <p>My name is Alberto Domingeuz. </p>
+                        <p>I am a 19-year-old Chicano and the first person in my family to attend college. 
+                            I am currently enrolled in Make School working towards getting a BA in Computer Science. </p>
+                        <p>Some of my hobbies are:</p>
+                        <div id="icons">
+                            <img src="https://image.flaticon.com/icons/svg/3169/3169565.svg" height=80px>
+                            <img src="https://image.flaticon.com/icons/png/512/2915/2915469.png" height=80px>
+                            <img src="https://image.flaticon.com/icons/svg/1706/1706709.svg" height=80px>
+                            <img src="https://image.flaticon.com/icons/svg/2964/2964687.svg" height=80px>
+                        </div>
+                    </article>
+                </main>
             </section>
 
             <hr>
-            <section id="Hobbies">      <!-- Hobbies-->
-                <h1>Hobbies</h1>
-                <ul>
-                    <li>Reading</li>
-                    <li>Jumping Rope</li>
-                    <li>Yoga</li>
-                    <li>Hiking</li>
-                    <li>Beat Boxing</li>
-                </ul>
-            </section>
-
-            <hr>
-            <section id="#Places_Traveled">     <!-- Places Traveled-->
+            <section id="Places_Traveled">     <!-- Places Traveled-->
                 <h1>Places Traveled</h1>
                 <ul>
                     <li>
-                        <img src="https://wallpaperaccess.com/full/703892.jpg">
+                        <img src="https://wallpaperaccess.com/full/703892.jpg" width="400">
                         GRAND CANYON
                     </li>
                     <li>
-                        <img src="https://www.wallpapers13.com/wp-content/uploads/2019/01/National-Park-Grand-Teton-Oxbow-Bend-Snake-River-in-Yellowstone-USA-4K-Ultra-HD-Wallpaper-for-Desktop-Laptop-Tablet-Mobile-Phones-And-TV-1280x1024.jpg">
+                        <img src="https://www.wallpapers13.com/wp-content/uploads/2019/01/National-Park-Grand-Teton-Oxbow-Bend-Snake-River-in-Yellowstone-USA-4K-Ultra-HD-Wallpaper-for-Desktop-Laptop-Tablet-Mobile-Phones-And-TV-1280x1024.jpg" width="400">
                         YELLOW STONE NATIONAL PARK
                     </li>
                     <li>
-                        <img src="https://wallpapercave.com/wp/wp1994354.jpg">
+                        <img src="https://wallpapercave.com/wp/wp1994354.jpg" width="400">
                         SEQUOIA NATIONAL PARK
                     </li>
                     <li>
-                        <img src="https://traveler.marriott.com/wp-content/uploads/2018/06/PuertoVallarta_DayTrips_Sayulita.jpg">
+                        <img src="https://traveler.marriott.com/wp-content/uploads/2018/06/PuertoVallarta_DayTrips_Sayulita.jpg" width="400">
                         PUERTO VALLARTA
                     </li>
                     <li>
-                        <img src="https://www.gannett-cdn.com/-mm-/b9e5c5c7891056b8e4aad67512619ee83cfb479f/c=0-186-3843-2357/local/-/media/2018/06/15/USATODAY/USATODAY/636646787345137558-GettyImages-908388868.jpg?width=3200&height=1808&fit=crop&format=pjpg&auto=webp">    
+                        <img src="https://www.gannett-cdn.com/-mm-/b9e5c5c7891056b8e4aad67512619ee83cfb479f/c=0-186-3843-2357/local/-/media/2018/06/15/USATODAY/USATODAY/636646787345137558-GettyImages-908388868.jpg?width=3200&height=1808&fit=crop&format=pjpg&auto=webp" width="400">    
                         CANCOON
 
                     </li>
                     <li>
-                        <img src="https://cdn.hswstatic.com/gif/chichen-itza.jpg">
+                        <img src="https://cdn.hswstatic.com/gif/chichen-itza.jpg" width="400">
                         CHICHEN ITZA
                     </li>
                 </ul>
